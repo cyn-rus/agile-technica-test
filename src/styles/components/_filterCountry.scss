@@ -16,7 +16,7 @@
       padding-left: 1rem;
       background-color: $purple;
       
-      &::placeholder, &:focus {
+      &::placeholder, &:focus, select, textarea {
         color: $turqoise;
         font-weight: 400;
         font-size: 0.9rem;
@@ -27,4 +27,10 @@
       }
     }
   }
+}
+
+input {
+  color: $turqoise;
+  font-weight: 400;
+  font-size: 0.9rem;
 }
