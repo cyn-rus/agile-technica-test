@@ -14,7 +14,6 @@ const Homepage = () => {
       })
   }, [])
 
-  console.log(countries)
   return (
     <div className="home-page">
       <div className="page-title">
